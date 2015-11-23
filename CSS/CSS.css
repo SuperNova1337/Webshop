@@ -1,5 +1,8 @@
 body {
-	background-color: lightblue;
+	
+	background-image: url(Image/longboard.png);
+	background-size: 100% 300%;
+	background-repeat: no-repeat;
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -41,3 +44,13 @@ nav a:hover{
 	margin: 0px auto 0px auto; /* top right bottom left */
 	border: 3px black solid; /* border-width border-color border-style*/
 }
+
+.box{
+position:relative;
+	float:left;
+	width:20%;	
+	height:76px;
+	right: -530px;
+	top: -80px;
+} 
+
