@@ -3,6 +3,7 @@ body {
 	background-image: url(Image/longboard.png);
 	background-size: 100% 300%;
 	background-repeat: no-repeat;
+
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -17,6 +18,7 @@ nav{
 	height: 80px;
 	margin: 10px auto 0px auto;
 	border:;
+
 }
 
 nav a{
@@ -36,8 +38,14 @@ nav a:hover{
 	float:left;
 	width:20%;	
 	height:76px;
+	border: solid darkblue 2px ;
+	margin: 0px -2px;
+	background-color: purple;
 }
 
+.navLink:hover{
+	background-color: darkblue;
+}
 .container{
 	position:relative;
 	width: 80%;
