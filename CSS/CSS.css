@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 nav{
-	width: 80%;
+	width: 99%;
 	height: 80px;
 	margin: 10px auto 0px auto;
 	border:;
@@ -33,6 +33,26 @@ nav a:hover{
 	text-decoration:underline;	
 }
 
+.login{
+	margin:20px auto 0px auto;
+	width:99%;
+	height:20px;
+}
+
+
+.login .Password{
+
+	float:right;
+	width:173px;
+	height:20px;
+}
+
+.login .Username{
+	margin-right:5px;
+	float:right;
+	width:173px;
+	height:20px;
+}
 .navLink{
 	position:relative;
 	float:left;
