@@ -8,22 +8,40 @@
 		<link rel="shortcut icon" href="images/exempelicon.png" /> <!-- Ändrar ikonen bredvid titel -->
 		<meta charset="UTF-8" /> <!-- teckenkodning UTF-8 har bl.a åäö -->
 		
+		
 	</head>
 
+
 	
+	<body>
+
+		<div class="login">
+			
+			<div class="Password">
+     			 <input type="password" placeholder="Lösenord" width="150" />
+			</div>
+
+			<div class="Username">
+     			 <input type="text"  placeholder="Användarnamn" width="150"/>
+			</div>	
+		</div>
+
+
 
 		<nav> <!-- nav står för navigation. Alltså den menyn som brukar vara överst på alla dina sidor-->
 			
 			<a href="index.html"><div class="navLink">
 
-				<h2> Hem </h2>
+				<h2 id="current"> Hem </h2> <!-- id current ger underline. d.v.s den sida man är på-->
 			
 			</div></a>
-			<a href="Produkter.html"><div class="navLink">
 
-				<h2 id="current"> Produkter </h2> <!-- id current ger underline. d.v.s den sida man är på-->
+			<a href="Produkter.html"><div class="navLink" id="#produkter">
+
+				<h2> Produkter </h2>
 			
 			</div></a>
+
 			<a href="sida3.html"><div class="navLink">
 
 				
@@ -50,12 +68,12 @@
 </div> </h2>
 		<div class="container">
 		
-			<h1> Hem </h1>
-			<p>
-			Ditt innehåll
-			</p>
+			<h1> Produkter </h1>
+			<p> Ditt innehåll </p>
 		
 		</div>
+
+		
 	
 	</body>
 
