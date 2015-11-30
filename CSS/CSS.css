@@ -38,7 +38,19 @@ nav a:hover{
 	width:99%;
 	height:20px;
 }
+.login .Signin{
+	float:right;
+	border:solid black 2px;
+	height: 20px;
+	margin-left: 5px;
 
+}
+ .Signin:hover{
+	background-color: red;
+}
+.login .Signin p{
+	margin:0px;
+}
 
 .login .Password{
 
