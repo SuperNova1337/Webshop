@@ -1,5 +1,5 @@
 body {
-	
+	margin:0px;
 	background-image: url(Image/longboard.png);
 	background-size: 100% 300%;
 	background-repeat: no-repeat;
@@ -93,3 +93,41 @@ position:relative;
 	right: -530px;
 	top: -80px;
 } 
+
+
+
+}
+.infoDisplay .infoContainer .infoContentContainer {
+  margin: auto;
+  background-color: #f3f3f3;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  border: 1px #777 solid;
+  text-align: justify;
+  width: 230px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  /* animation */
+  -webkit-animation-name: exempel; 
+  -webkit-animation-duration: 0.5s;
+  animation-name: exempel;
+  animation-duration: 0.5s;
+}
+
+.Hjalp{
+	position: fixed;
+	
+	border-radius: 20px 20px;
+	width: 10%;
+	float:left;
+	background-color: rgba(0, 111, 187, 1);
+
+
+}
+.Hjalp h2{
+	color:white;
+}
+.Hjalp:hover{
+	background-color: rgba(0, 132, 219, 1);
+}

@@ -1,25 +1,20 @@
-﻿<!DOCTYPE html>
-<html lang=''>
+<!DOCTYPE html>
+<html>
 
 	<head>
 
 		<title> Din titel </title>
 		<link rel="stylesheet" href="CSS/CSS.css" /> <!-- Länkar mitt css med min html. href är sökvägen till css filen och ut går ifrån den mapp detta dokument ligger i. -->
+		<link rel="stylesheet" href="CSS/animation.css" /> <!-- Länkar mitt css med min html. href är sökvägen till css filen och ut går ifrån den mapp detta dokument ligger i. -->
 		<link rel="shortcut icon" href="images/exempelicon.png" /> <!-- Ändrar ikonen bredvid titel -->
 		<meta charset="UTF-8" /> <!-- teckenkodning UTF-8 har bl.a åäö -->
 		
-		
 	</head>
-
-
 	
-	<body>
-
-
 		<div class="login">
-	<div class="Signin">
+	<a href="#signIn"><div class="Signin">
 			<p> Sign In </p>
-		</div>
+		</div></a>
 			<div class="Password">
      			 <input type="password" placeholder="Lösenord" width="150" />
 			</div>
@@ -31,6 +26,8 @@
 
 
 
+				
+
 		<nav> <!-- nav står för navigation. Alltså den menyn som brukar vara överst på alla dina sidor-->
 			
 			<a href="index.html"><div class="navLink">
@@ -38,13 +35,11 @@
 				<h2 id="current"> Hem </h2> <!-- id current ger underline. d.v.s den sida man är på-->
 			
 			</div></a>
-
-			<a href="Produkter.html"><div class="navLink">
+			<a href="sida2.html"><div class="navLink">
 
 				<h2> Produkter </h2>
 			
 			</div></a>
-
 			<a href="sida3.html"><div class="navLink">
 
 				
@@ -78,8 +73,14 @@
 		
 		</div>
 
-		
-	
+		<div class="popUp" id="signIn">		
+			  
+				<div class="inlogg"><h2>Du är nu inloggad!</h2></div>
+		</div>
+
+		<div class="Hjalp" id="Hjalpruta"><h2> Hjälp </h2></div>
+
+
 	</body>
 
 </html>
