@@ -152,6 +152,7 @@ position:relative;
 
 .Hjalp{
 	position: fixed;
+	margin:300px 0px 0px 0px;
 	
 	border-radius: 20px 20px;
 	width: 10%;
