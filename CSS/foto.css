@@ -1,0 +1,34 @@
+.foto{
+  width:1000px;
+  height:800px;
+  border:5px solid black;
+  margin-left:200px;
+}
+
+.foto .topLeft{
+	margin-left:-65px;
+	float:left;
+	width:35%;
+	height:60%;
+}
+
+.foto .topMiddle{
+	float:left;
+	width:35%;
+	height:60%;
+}
+
+.foto .left{
+	float:right;
+	margin-top:-480px;
+	width:30%;
+	height:100%;
+}
+
+
+.foto .bottomLeft{
+	float:left;
+	margin-top:-0px;
+	width:70%;
+	height:40%;
+}
