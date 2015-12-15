@@ -32,3 +32,48 @@
 	width:70%;
 	height:40%;
 }
+
+.sidoruta{
+	float:left;
+
+	margin-top:-680px;
+	margin:-680px 12px 2px 2px;
+	height: 100px;
+	width:180px;
+	border-top: 20px;
+}
+
+.produkter{
+	
+	border:solid 1px #123;
+	border-radius: 20px;
+	
+	background-color: lightgrey;
+}
+
+.produkter:hover{
+	background-color: grey;
+	border:100px;
+}
+
+.klader{
+	border:solid 1px #123;
+	border-radius: 20px;
+	background-color: lightgrey;
+}
+
+.klader:hover{
+	background-color: grey;
+	border:100px;
+}
+
+.brada{
+	border:solid 1px #123;
+	border-radius: 20px;
+	background-color: lightgrey;
+}
+
+.brada:hover{
+	background-color: grey;
+	border:100px;
+}
