@@ -3,6 +3,7 @@
   height:800px;
   border:5px solid black;
   margin-left:200px;
+  margin-top:-5px;
 }
 
 .foto .topLeft{
@@ -35,45 +36,26 @@
 
 .sidoruta{
 	float:left;
-
-	margin-top:-680px;
-	margin:-680px 12px 2px 2px;
-	height: 100px;
-	width:180px;
-	border-top: 20px;
+	border:blue solid 3px;
+	margin:-833px 12px 2px 5px;
+	padding: 0px 5px;
 }
 
-.produkter{
-	
-	border:solid 1px #123;
-	border-radius: 20px;
-	
+.sidoknapp{
 	background-color: lightgrey;
-}
-
-.produkter:hover{
-	background-color: grey;
-	border:100px;
-}
-
-.klader{
-	border:solid 1px #123;
 	border-radius: 20px;
-	background-color: lightgrey;
-}
+	height:25px;
+	padding:25px 0px 25px 0px;
+	border:1.5px #123 solid;
+	margin:20px 0px 20px 0px;
 
-.klader:hover{
+}
+.sidoknapp:hover{
 	background-color: grey;
-	border:100px;
-}
+	padding:0px;
+	margin:45px 0px 45px 0px;
 
-.brada{
-	border:solid 1px #123;
-	border-radius: 20px;
-	background-color: lightgrey;
 }
-
-.brada:hover{
-	background-color: grey;
-	border:100px;
+.sidoknapp p{
+	margin: 0px;
 }
