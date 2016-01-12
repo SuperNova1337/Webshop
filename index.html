@@ -86,11 +86,26 @@
 			<img class="left" src="http://www.hollywood.no/images/246625/stance.jpg"></img>
 		</div>
 
+		<script>
+
+		function funktion(){
+			document.getElementsByClassName('klader')[0].style.display = 'block';
+		}
+
+		function funktion2(){
+			document.getElementsByClassName('klader')[0].style.display = 'none';
+		}
+
+		</script>
+
+
 		<div class="sidoruta">
-			<h2 class="sidoknapp"><p> PRODUKTER </p></h2>
+			<h2 class="sidoknapp" onmouseover="funktion()" onmouseleave="funktion2()"><p> PRODUKTER </p></h2>
 			<h2 class="sidoknapp"><p> KLÄDER </p></h2>
 			<h2 class="sidoknapp"><p> CRUISING </p></h2>
 		</div>
+		<div class="klader"> </div>
+
 	</body>
 
 </html>
