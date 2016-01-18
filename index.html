@@ -90,11 +90,16 @@
 
 		function funktion(){
 			document.getElementsByClassName('klader')[0].style.display = 'block';
+			document.getElementsByClassName('java')[0].style.display = 'block';
+
 		}
 
 		function funktion2(){
 			document.getElementsByClassName('klader')[0].style.display = 'none';
+			document.getElementsByClassName('java')[0].style.display = 'none';
 		}
+
+
 
 		</script>
 
@@ -104,7 +109,13 @@
 			<h2 class="sidoknapp"><p> KLÄDER </p></h2>
 			<h2 class="sidoknapp"><p> CRUISING </p></h2>
 		</div>
-		<div class="klader"> </div>
+		<div class="java"  onmouseover="funktion()" onmouseleave="funktion2()"> </div>
+		<div class="klader" onmouseover="funktion()" onmouseleave="funktion2()"> </div>
+		<div class="klader2" onmouseover="funktion()" onmouseleave="funktion2()"> </div>
+	</div>
+		<ol><p> B</p>
+			<p> d</p>
+		</ol>	
 
 	</body>
 

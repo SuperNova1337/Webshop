@@ -178,10 +178,40 @@ position:relative;
 }
 
 .klader{
-width:100px;
-height:100px;
-background-color: red;
-margin-top:-600px;
-display:none;
+	width:200px;
+	height:400px;
+	background-color: red;
+	margin-top:-800px;
+	display:none;
+	margin-left: 200px;
+	position: relative;
+	z-index: 1;
 
+}
+
+.klader2{
+	width:200px;
+	height:400px;
+	background-color: black;
+	display:none;
+	margin-top: -800px;
+	margin-left: 100px;
+	z-index: 1;
+}
+
+.klader2:hover{
+	width:200px;
+	height:400px;
+	margin-top: -800px;
+	margin-left: 100px;
+
+}
+
+.java{
+	display: :none;
+	width:200px;
+	height:400px;
+	margin-top: -800px;
+	margin-left: 180px;
+	position: fixed;
 }
