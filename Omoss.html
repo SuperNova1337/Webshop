@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title> Din titel </title>
+		<link rel="stylesheet" href="CSS/CSS.css" /> <!-- Länkar mitt css med min html. href är sökvägen till css filen och ut går ifrån den mapp detta dokument ligger i. -->
+		<link rel="stylesheet" href="CSS/animation.css" /> <!-- Länkar mitt css med min html. href är sökvägen till css filen och ut går ifrån den mapp detta dokument ligger i. -->
+		<link rel="stylesheet" href="CSS/foto.css" /> <!-- Länkar mitt css med min html. href är sökvägen till css filen och ut går ifrån den mapp detta dokument ligger i. -->
+
+		<link rel="shortcut icon" href="images/exempelicon.png" /> <!-- Ändrar ikonen bredvid titel -->
+		<meta charset="UTF-8" /> <!-- teckenkodning UTF-8 har bl.a åäö -->
+		
+	</head>
+	
+		<div class="login">
+	<a href="#signIn"><div class="Signin">
+			<p> Sign In </p>
+		</div></a>
+			<div class="Password">
+     			 <input type="password" placeholder="Lösenord" width="150" />
+			</div>
+
+			<div class="Username">
+     			 <input type="text"  placeholder="Användarnamn" width="150"/>
+			</div>	
+		</div>
+
+
+
+				
+
+		<nav> <!-- nav står för navigation. Alltså den menyn som brukar vara överst på alla dina sidor-->
+
+			
+			<a href="index.html"><div class="navLink">
+
+				<h2 id="current"> Hem </h2> <!-- id current ger underline. d.v.s den sida man är på-->
+			
+			</div></a>
+			<a href="sida2.html"><div class="navLink">
+
+				<h2> Produkter </h2>
+			
+			</div></a>
+			<a href="sida3.html"><div class="navLink">
+
+				
+			
+			</div></a>
+			<a href="kundtjänst.html"><div class="navLink">
+
+				<h2> Kundtjänst </h2>
+			
+			</div></a>
+			<a href="Omoss.html"><div class="navLink">
+
+
+				<h2> Sida 5 </h2>
+			
+			</div></a>
+		
+		</nav> <!-- Slut på navigation -->
+
+
+	<h2> <div class="box">
+  <div class="container-1">
+      <span class="icon"><i class="fa fa-search"></i></span>
+      <input type="search" id="search" placeholder="Search..." />
+  </div>
+</div> </h2>
+
+
+		<div class="popUp" id="signIn">	
+			<a href="index.html">
+			<div class="kryssbox"><p> X </p>	
+			</div>	</a>
+			  
+				<div class="inlogg"><h2>Du är nu inloggad!</h2></div>
+		</div>
+
+		<div class="Hjalp" id="Hjalpruta"><h2> Hjälp </h2></div>
+
+		
+		<script>
+
+		function funktion(){
+			document.getElementsByClassName('klader')[0].style.display = 'block';
+			document.getElementsByClassName('java')[0].style.display = 'block';
+			document.getElementsByClassName('skor')[0].style.display = 'block';
+
+		}
+
+		function funktion2(){
+			document.getElementsByClassName('klader')[0].style.display = 'none';
+			document.getElementsByClassName('java')[0].style.display = 'none';
+			document.getElementsByClassName('skor')[0].style.display = 'none';
+		}
+
+
+
+		</script>
+
+
+		<div class="sidoruta">
+			<h2 class="sidoknapp" onmouseover="funktion()" onmouseleave="funktion2()"><p> PRODUKTER </p></h2>
+			<h2 class="sidoknapp"><p> KLÄDER </p></h2>
+			<h2 class="sidoknapp"><p> CRUISING </p></h2> 
+		</div>
+		<div class="java"  onmouseover="funktion()" onmouseleave="funktion2()"> </div>
+		<div class="klader" onmouseover="funktion()" onmouseleave="funktion2()">
+		
+			<div class="skor" onmouseover="funktion()" onmouseleave="funktion2()">  <p>SKasdasdasdOR</p>  </div>
+			<div class="skor" onmouseover="funktion()" onmouseleave="funktion2()"> <a href="Google.com"> <p>  hej </p> </a>  </div>
+			<div class="skor" onmouseover="funktion()" onmouseleave="funktion2()"> <p> SKOsRddssdsds </p>  </div>
+			<div class="skor" onmouseover="funktion()" onmouseleave="funktion2()"> <p> SKORsdsdsdsdd </p>  </div>
+		
+		</div>
+		<div class="klader2" onmouseover="funktion()" onmouseleave="funktion2()"> </div>
+	</div>
+
+			<div class="media">
+			<img src="CSS/Image/fknapp.png" heihgt ="90px" width ="90px">
+			<img src="CSS/Image/twittknapp.png" heihgt="90px" width="90px">
+			<img src="CSS/Image/instagramknapp.png" heihgt="90px" width="90">
+			<img src="CSS/Image/tumblr.png" heihgt="90px" width="90px">
+			</div>
+
+			
+
+
+
+	</body>
+
+</html>
