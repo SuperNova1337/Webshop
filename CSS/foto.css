@@ -1,10 +1,10 @@
 .foto{
-	background-color: #FFCA61;
-  width:1000px;
-  height:800px;
-  border:5px solid black;
-  margin-left:200px;
-  margin-top:-5px;
+	background-color: #FFF78B;
+ 	width:1000px;
+ 	height:800px;
+	border:5px solid #FFCA61;
+	margin-left:200px;
+	margin-top:-5px;
 }
 
 .foto .topLeft{

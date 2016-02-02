@@ -15,7 +15,7 @@
 	height:300px;
 	width:200px;
 	border:solid purple 5px;
-	margin:10px 0px 0px 10px;
+	margin:10px 1px 1px 10px;
 	border-radius:25px;
 }.itemContainer:hover{
 		background-color:rgb(145,145,145);
