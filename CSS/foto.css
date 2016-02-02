@@ -60,3 +60,22 @@
 .sidoknapp p{
 	margin: 0px;
 }
+
+#BOOM{
+	width:30%;
+	height:250px;
+	position: absolute;
+	top: 45%;
+	left: 35%;
+	right: 35%;
+}
+
+#tavla{
+	z-index: -1;
+	height:405px;
+	width:600px;
+	position: absolute;
+	top:212px;
+	left:380px;
+	right:35%;
+}

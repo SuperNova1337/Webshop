@@ -256,10 +256,20 @@ position:relative;
 
 .media{
 	
-	position:
-	padding: 5px 5px; 
+	
+	padding: 5px 5px;
+	position: relative;
+	bottom:-10px; 
+	float:left;
 }
 
+.media2{
+	padding: 5px 5px;
+	position: relative;
+	bottom:-400px;
+	float:left;
+	left:-280px;
+}
 .cssmenu{
 	display:none;
 }
