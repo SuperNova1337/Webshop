@@ -1,0 +1,41 @@
+.itemBuyButton{
+margin:20px auto 0px auto;
+	width:99%;
+	height:20px;
+	color:green;
+
+}
+
+.itemBuyButton .SignIn2{
+	float:right;
+	border:solid black 2px;
+	height: 20px;
+	margin-left: 5px;
+}
+
+.SignIn2:hover{
+	background-color: red;
+}
+
+.itemBuyButton .SignIn2 p{
+	margin:0px;
+
+	}
+
+	.infoDisplay .infoContainer .infoContentContainer {
+  margin: auto;
+  background-color: #f3f3f3;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  border: 1px #777 solid;
+  text-align: justify;
+  width: 230px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  /* animation */
+  -webkit-animation-name: exempel; 
+  -webkit-animation-duration: 0.5s;
+  animation-name: exempel;
+  animation-duration: 0.5s;
+}

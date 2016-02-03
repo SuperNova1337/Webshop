@@ -1,0 +1,52 @@
+@-webkit-keyframes exempel {
+    from {margin-top:-100px;opacity: 0;}
+    to {margin-top:0px;opacity:1;}
+}
+@keyframes exempel {
+    from {top:-100px;opacity: 0;}
+    to {top:0px;opacity:1;}
+}
+
+
+
+.popUp2{
+	display:none;
+
+}
+
+.popUp2:target{
+	margin:0px;
+  display:block;
+  position: fixed;
+  top:0px;  
+  height:100%;
+  width:100%;
+  background: rgba(0,0,0,0.4);
+
+
+
+
+
+  /* animation */
+  -webkit-animation-name: exempel; 
+  -webkit-animation-duration: 0.5s;
+  animation-name: exempel;
+  animation-duration: 0.5s;
+}
+
+.inlogg2{
+	float right;
+	background-color: rgba(0, 256, 0, 0.4) ;
+	position: relative;
+	margin: 300px auto;
+	width: 160px;
+	height: 160px;
+	border-radius: 20px 20px;
+	border:solid;
+	border-radius: 20px;
+
+	
+
+
+}
+
