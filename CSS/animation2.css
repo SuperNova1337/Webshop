@@ -10,12 +10,12 @@
 
 
 .popUp2{
-	display:none;
+  display:none;
 
 }
 
 .popUp2:target{
-	margin:0px;
+  margin:0px;
   display:block;
   position: fixed;
   top:0px;  
@@ -35,18 +35,20 @@
 }
 
 .inlogg2{
-	float right;
-	background-color: rgba(0, 256, 0, 0.4) ;
-	position: relative;
-	margin: 300px auto;
-	width: 160px;
-	height: 160px;
-	border-radius: 20px 20px;
-	border:solid;
-	border-radius: 20px;
+  float right;
+  background-color: rgba(0, 256, 0, 0.4) ;
+  position: relative;
+  margin: 300px auto;
+  width: 160px;
+  height: 160px;
+  border-radius: 20px 20px;
+  border:solid;
+  border-radius: 20px;
 
-	
+  
 
 
 }
+
+
 

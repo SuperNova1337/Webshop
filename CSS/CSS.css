@@ -44,6 +44,13 @@ nav a:hover{
 	width:99%;
 	height:20px;
 }
+
+.itemContainer{
+	margin:15px auto 0px auto;
+	width:99%;
+	height:20px;
+}
+
 .login .Signin{
 	float:right;
 	border:solid black 2px;
@@ -51,11 +58,31 @@ nav a:hover{
 	margin-left: 5px;
 
 }
+
+.itemContainer .itemBuyButton{
+	float:right;
+	border:solid black 2px;
+	height: 20px;
+	margin-left: 5px;
+}
+
+
  .Signin:hover{
 	background-color: red;
 }
+
+.itemBuyButton:hover{
+	background-color: green;
+}
+
+
 .login .Signin p{
 	margin:0px;
+}
+
+.itemContainer .itemBuyButton p{
+	margin: 0px;
+	color: green;
 }
 
 .kryssbox{
