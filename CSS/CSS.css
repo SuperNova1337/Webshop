@@ -33,9 +33,14 @@ nav a:hover{
 	text-decoration:underline;	
 }
 
+.webb_bild{	
+	margin: 0px auto -50px auto;
+	height: 274px;
+    width: 99%;
+}
 
 .login{
-	margin:20px auto 0px auto;
+	margin:15px auto 0px auto;
 	width:99%;
 	height:20px;
 }
@@ -256,9 +261,22 @@ position:relative;
 
 .media{
 	
-	position:
-	padding: 5px 5px; 
+	
+	padding: 5px 5px;
+	position: relative;
+	bottom:-10px; 
+	float:left;
 }
 
+.media2{
+	padding: 5px 5px;
+	position: relative;
+	bottom:-400px;
+	float:left;
+	left:-280px;
+}
+.cssmenu{
+	display:none;
+}
 
 
