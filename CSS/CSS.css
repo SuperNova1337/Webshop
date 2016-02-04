@@ -34,7 +34,9 @@ nav a:hover{
 }
 
 .webb_bild{	
-	margin: 0px auto -50px 7px;
+	margin: 0px auto -50px auto;
+	height: 274px;
+    width: 99%;
 }
 
 .login{
@@ -80,7 +82,7 @@ nav a:hover{
 
 .itemContainer .itemBuyButton p{
 	margin: 0px;
-	color: green;
+
 }
 
 .kryssbox{
@@ -299,6 +301,7 @@ position:relative;
 	bottom:-400px;
 	float:left;
 	left:-280px;
+	
 }
 .cssmenu{
 	display:none;

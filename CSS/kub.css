@@ -1,0 +1,58 @@
+.face{
+	position: absolute;
+	height: 360px;
+	width: 360px;
+	padding: 20px;
+	background-color: grey;
+}
+
+#cubesides{
+	position: relative;
+	margin: auto;
+	height: 400px;
+	width: 400px;
+	-webkit-transform-style:preserve-3d;
+	-webkit-transform: rotateX(-60deg);
+	-webkit-animation: anim2 ease-in-out 30s infinite alternate;
+}
+
+@-webkit-keyframes anim2{
+
+	from {-webkit-transform: rotateY(0deg)}
+	25% {-webkit-transform:rotateY(360deg)}
+	to {-webkit-transform: rotateY(0deg)}
+	50% {-webkit-transform:rotateX(0deg)}
+	75% {-webkit-transform:rotateX(360deg)}
+	to {-webkit-transform:rotateX(0deg)}
+
+}
+
+#CONTAINER{
+	margin:80px;
+	-webkit-perspective:800;
+	-webkit-perspective-origin:50% 110px;
+}
+
+#F1{
+	-webkit-transfrom:rotateX(90deg) translateZ(200px);
+}
+
+#F2{
+	-webkit-transfrom: translateZ(200px);
+}
+
+#F3{
+	-webkit-transfrom:rotateY(90deg) translateZ(200px);
+}
+
+#F4{
+	-webkit-transfrom:rotateY(180deg) translateZ(200px);
+}
+
+#F5{
+	-webkit-transfrom:rotateY(-90deg) translateZ(200px);
+}
+
+#F6{
+	-webkit-transfrom:rotateX(-90deg) translateZ(200px) rotate(180deg);
+}
